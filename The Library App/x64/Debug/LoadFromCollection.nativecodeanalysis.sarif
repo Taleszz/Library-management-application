@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/jakub/desktop/infa/kolo 1/the library app/the library app/loadfromcollection.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f481b1d39ee37db45b8141918d21081413f304763864987b53afbb3a11f5017e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakub/desktop/infa/kolo 1/the library app/the library app/loadfromcollection.h"
+          },
+          "hashes": {
+            "sha-256": "8502e1e7d29244cac306034880cef12c0aa252445c2144c00fde9de3d962d641"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakub/desktop/infa/kolo 1/the library app/the library app/book.h"
+          },
+          "hashes": {
+            "sha-256": "078a1580cd07a9de391ae2f8262bd3a435fff57423212d9ec100d79da95b9105"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jakub/desktop/infa/kolo 1/the library app/the library app/namespace&includes.h"
+          },
+          "hashes": {
+            "sha-256": "268d2bd40cad17ecbcb94f4f61b18c4658bde814c7a04e48d77030a1d66697ad"
+          }
+        }
+      ]
+    }
+  ]
+}
